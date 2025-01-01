@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dora Vota Wallet</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+  <!-- Container Home -->
+  <div class="container">
+    <div class="header">
+      <img src="icons/logo.png" alt="Logo">
+      <h1>Dora Vota</h1>
+      <h2 style="color: rgb(107, 107, 107);">Welcome back!</h2>
+      <h3>Dora Vota was waiting for you.</h3>
+    </div>
+
+    <div class="rede">
+      Network:&nbsp;
+      <select>
+        <option value="Dora Vota Testnet">Dora Vota Testnet</option>
+        <option value="Dora Vota Mainnet">Dora Vota Mainnet</option>
+        <option value="Dora Vota Incentivized Testnet">Dora Vota Incentivized Testnet</option>
+      </select>
+    </div>
+
+    <div class="containerPass">
+      <label for="password">Access your accounts</label>
+      <input type="password" id="password" placeholder="Password" required>
+      <button id="executeCommand">Login</button>
+
+    </div>
+    <div align="center">
+      <br>Or<br><br>
+      <button id="new">Create a new account</button>
+    </div>
+    <br><br>
+  </div>
+
+
+  <!-- Container Account -->
+  <div class="containerAccount" style="display: none;">
+    
+    <div class="header">
+      <img src="icons/logo.png" alt="Logo">
+      <h1>Dora Vota Account</h1>
+    </div>
+
+    <div id="output"></div>
+    
+
+    <div align="center">
+      <button id="exit">Exit</button>
+    </div>
+    <br><br>
+
+  </div>
+
+
+
+  <!-- New Account -->
+  <div class="containerNewAccount" style="display: none;">
+    
+    <div class="header">
+      <img src="icons/logo.png" alt="Logo">
+      <h1>Dora Vota New Account</h1>
+    </div>
+    <br><br>
+    <div class="containerPassNewUser">
+      <label for="password">Create a new account!</label>
+      <input type="text" id="user_name" placeholder="Name" required>
+      <input type="password" id="user_password" placeholder="Password" required>
+      <input type="password" id="user_reenter_password" placeholder="Re-enter Password" required>
+      <button id="executeUser">Create User</button>
+
+    </div>
+    <div id="outputNewUser"></div>
+
+    <br><br>
+    <div align="center">
+      <button id="exitNew">Exit</button>
+    </div>
+    <br><br>
+
+  </div>
+
+
+
+
+
+  <script src="index.js"></script>
+
+</body>
+</html>

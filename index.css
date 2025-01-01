@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+
+  .container {
+    width: 320px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+
+  .containerAccount {
+    width: 320px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+
+  .containerNewAccount {
+    width: 320px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+
+  .header {
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .header img {
+    width: 120px;
+    border-radius: 50%;
+  }
+
+  .header h1 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+  }
+
+  .header h2 {
+    font-size: 1.0rem;
+    margin: 15px 0 5px;
+  }
+
+  .header h3 {
+    font-size: 0.8rem;
+    margin: 5px 0 5px;
+  }
+
+  .rede {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 10px;
+  }
+
+  .rede h2 {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  .rede select {
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+
+
+  .containerPass {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    align-content: center;
+  }
+
+  .containerPassNewUser {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    align-content: center;
+  }
+  
+  .containerResultAccount {
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    align-content: center;
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input[type="password"] {
+    width: 260px;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="text"] {
+    width: 260px;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FF6500;
+    color: white;
+    cursor: pointer;
+  }
